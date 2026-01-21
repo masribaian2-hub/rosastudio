@@ -1,0 +1,121 @@
+
+:root {
+    --bg-terracotta: #c58d7f;
+    --container-cream: #fdfaf5;
+    --text-main: #4a3f35;
+    --text-muted: #70665e;
+    --btn-bg: #4a3f35;
+}
+
+body {
+    background-color: var(--bg-terracotta);
+    margin: 0;
+    padding: 20px;
+    font-family: 'Serif', 'Georgia', serif;
+    color: var(--text-main);
+}
+.main-container {
+    background-color: var(--container-cream);
+    border-radius: 60px; 
+    min-height: calc(100vh - 40px);
+    padding: 40px 60px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+}
+
+.logo-main {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #4b3b33;
+    text-transform: lowercase;
+}
+
+.logo-sub {
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-top: 2px;
+    color: #4b3b33;
+    text-transform: uppercase;
+}
+
+
+.nav-links { list-style: none; display: flex; gap: 30px; }
+.nav-links a { 
+    text-decoration: none; 
+    color: var(--text-main); 
+    font-size: 0.9rem; 
+    font-family: sans-serif; 
+}
+
+.faq-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    line-height: 1.1;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.accordion {
+    border-top: 1px solid #e5e0d8;
+}
+
+details {
+    border-bottom: 1px solid #e5e0d8;
+    padding: 25px 0;
+}
+
+summary {
+    list-style: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+summary::-webkit-details-marker { display: none; }
+
+.plus-icon {
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: var(--text-muted);
+}
+
+.answer {
+    padding-top: 15px;
+    color: var(--text-muted);
+    font-size: 1rem;
+    max-width: 700px;
+}
+
+.faq-footer {
+    margin-top: 60px;
+}
+
+.btn-dark {
+    display: inline-block;
+    background-color: var(--btn-bg);
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    margin-top: 10px;
+}
