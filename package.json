@@ -1,22 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "better-sqlite3": "^12.6.2"
-=======
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "Node.js Express backend with SQLite",
-  "main": "server.js",
-  "engines": {
-  "node": "18.x"
-}
-  "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^5.2.1",
-    "sqlite3": "^5.0.2"
->>>>>>> 502381e3a49623d0c1b85f9cc3837811a29375d2
-  }
+  "name": "rosastudio",
+  "private": true
 }
